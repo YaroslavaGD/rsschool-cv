@@ -1,18 +1,17 @@
-==============
 # Yaroslava Hryzadubova
-==============
+
 ## Junior Frontend Developer
-==============
+
 ## Contact information:
 
 * __Phone:__ +38 050 2194008
 * __E-mail:__ yaroslava.gd@gmail.com
 * __Telegram:__ @yaroslava_gd
-==============
+
 ## Briefly About Myself:
 
 Bla-bla
-==============
+
 ## Skills and Proficiency:
 
 * HTML5, CSS3
@@ -20,7 +19,7 @@ Bla-bla
 * Git, GitHub
 * VS Code, IntelliJ IDEA
 * Adobe Photoshop, Figma
-==============
+
 ## Code example:
 
 __Bouncings Balls from CODEWARS:__ _A child is playing with a ball on the nth floor of a tall building. The height of this floor above ground level, h, is known._
@@ -50,12 +49,15 @@ function bouncingBall(h, bounce, window) {
     return numDrops - 1;
 }
 ```
-==============
+
 ## Education:
-bla-bla
-==============
+Donetsk National Technical University
+Faculty of computer information technologies and automation
+Years: 2010-2017
+Specialization: 
+
 ## Languages:
-* English - Basic
+* English - Basic (A2)
 * German - Intermediate/Upper-intermediate (B2 - Telc)
 * Russian - Native
 * Ukrainian - Intermediate
