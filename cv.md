@@ -3,18 +3,15 @@
 ## Junior Frontend Developer
 
 ## Contact information:
-
 * __Phone:__ +38 050 2194008
 * __E-mail:__ yaroslava.gd@gmail.com
 * __Telegram:__ @yaroslava_gd
 * [__LinkedIn__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
 
 ## Briefly About Myself:
-
 I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.
 
 ## Skills and Proficiency:
-
 * HTML5, CSS3
 * JavaScript
 * Git, GitHub
@@ -22,7 +19,6 @@ I graduated from Donetsk National Technical University in 2017, moved to Kyiv an
 * Adobe Photoshop, Figma
 
 ## Code example:
-
 __Bouncings Balls from CODEWARS:__ _A child is playing with a ball on the nth floor of a tall building. The height of this floor above ground level, h, is known._
 _He drops the ball out of the window. The ball bounces (for example), to two-thirds of its height (a bounce of 0.66)._
 _His mother looks out of a window 1.5 meters from the ground._
@@ -50,7 +46,8 @@ function bouncingBall(h, bounce, window) {
     return numDrops - 1;
 }
 ```
-## Experience
+
+## Experience:
 September 2017 - July 2019: Junior Wordpress Template Developer in EA Group, Kyiv, Ukraine
 
 ## Education:
@@ -59,7 +56,7 @@ September 2017 - July 2019: Junior Wordpress Template Developer in EA Group, Kyi
 * Years: 2010-2017
 * Specialization: Software engineering
 
-## Courses
+## Courses:
 2021-2022: German Courses (Goethe-Institut and VHS) in Berlin
 
 ## Languages:
