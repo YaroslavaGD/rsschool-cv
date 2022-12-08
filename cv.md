@@ -7,7 +7,7 @@
 * __Phone:__ +38 050 2194008
 * __E-mail:__ yaroslava.gd@gmail.com
 * __Telegram:__ @yaroslava_gd
-* [__LinkedIn:__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
+* [__LinkedIn__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
 
 ## Briefly About Myself:
 
