@@ -7,10 +7,11 @@
 * __Phone:__ +38 050 2194008
 * __E-mail:__ yaroslava.gd@gmail.com
 * __Telegram:__ @yaroslava_gd
+* [__LinkedIn:__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
 
 ## Briefly About Myself:
 
-Bla-bla
+I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.
 
 ## Skills and Proficiency:
 
@@ -49,12 +50,17 @@ function bouncingBall(h, bounce, window) {
     return numDrops - 1;
 }
 ```
+## Experience
+September 2017 - July 2019: Junior Wordpress Template Developer in EA Group, Kyiv, Ukraine
 
 ## Education:
-Donetsk National Technical University
-Faculty of computer information technologies and automation
-Years: 2010-2017
-Specialization: 
+* Donetsk National Technical University, Pokrovsk, Ukraine
+* Faculty of computer information technologies and automation
+* Years: 2010-2017
+* Specialization: Software engineering
+
+## Courses
+2021-2022: German Courses (Goethe-Institut and VHS) in Berlin
 
 ## Languages:
 * English - Basic (A2)
