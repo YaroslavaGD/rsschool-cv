@@ -28,20 +28,27 @@
    
   </header>
 
-  <main class="container bg-white">
-    <section class="about" id="about">
+  <main class="container bg-white main">
+    <section class="section about" id="about">
       <h1 class="about-header">Yaroslava Hryzadubova</h1>
       <h2 class="about-subheader">Web developer</h2>
-      <img src="assets/img/avatar1.jpg" alt="photo">
+      <img class="about-photo" src="assets/img/avatar1.jpg" alt="photo">
       <p class="about-text">I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.</p>
     </section>
   
-    <section class="contact group" id="contact">
-      <h2 class="group-header">Contact</h2>
+    <section class="contact section" id="contact">
+      <h2 class="section-header">Contact</h2>
+      <ul>
+        <li>home</li>
+        <li>email</li>
+        <li>GITHUB</li>
+        <li>telegram</li>
+        <li>discord</li>
+      </ul>
     </section>
   
-    <section class="skills" id="skills">
-      <h2>Skills</h2>
+    <section class="skills section" id="skills">
+      <h2 class="section-header">Skills</h2>
       <ul>
         <li>HTML5, CSS3</li>
         <li>JavaScript</li>
@@ -51,23 +58,40 @@
       </ul>
     </section>
   
-    <section class="experience" id="experience">
-      <h2>Experience</h2>
+    <section class="experience section" id="experience">
+      <h2 class="section-header">Experience</h2>
     </section>
   
-    <section class="education" id="education">
+    <section class="education section" id="education">
       <h2>Education</h2>
     </section>
 
-    <section class="code" id="code">
+    <section class="code section" id="code">
       <h2>Code example</h2>
+      <code>
+        <pre>
+          function bouncingBall(h, bounce, window) {
+            let numDrops = 0
+            let currentHeight = h;
+            
+            if (bounce >= 1 ||  bounce <= 0) return -1;
+        
+            while (currentHeight > window) {
+                currentHeight *= bounce;
+                numDrops = numDrops + 2;
+            }
+        
+            return numDrops - 1;
+        }
+        </pre>
+      </code>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="projects section" id="projects">
       <h2>Projects</h2>
     </section>
 
-    <section class="languages" id="language">
+    <section class="languages section" id="language">
       <h2>Languages</h2>
       <ul>
         <li>English - Basic (A2)</li>
