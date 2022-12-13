@@ -5,50 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/cv.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>CV</title>
 </head>
 <body class="bg">
   <header class="main">
-    <h1>Yaroslava Hryzadubova</h1>
-    <h2>Web developer</h2>
-    <img src="" alt="">
-    <p>I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.</p>
+    <nav class="nav container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a> </li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#language" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+   
   </header>
 
-  <main>
-    <section class="contact">
-      <h2>Contact</h2>
+  <main class="container bg-white">
+    <section class="about" id="about">
+      <h1 class="about-header">Yaroslava Hryzadubova</h1>
+      <h2 class="about-subheader">Web developer</h2>
+      <img src="assets/img/avatar1.jpg" alt="photo">
+      <p class="about-text">I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.</p>
     </section>
   
-    <section class="skills">
+    <section class="contact group" id="contact">
+      <h2 class="group-header">Contact</h2>
+    </section>
+  
+    <section class="skills" id="skills">
       <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3</li>
+        <li>JavaScript</li>
+        <li>Git, GitHub</li>
+        <li>VS Code, IntelliJ IDEA</li>
+        <li>Adobe Photoshop, Figma</li>
+      </ul>
     </section>
   
-    <section class="experience">
+    <section class="experience" id="experience">
       <h2>Experience</h2>
     </section>
   
-    <section class="education">
+    <section class="education" id="education">
       <h2>Education</h2>
     </section>
 
-    <section class="code">
+    <section class="code" id="code">
       <h2>Code example</h2>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2>Projects</h2>
     </section>
 
-    <section class="languages">
+    <section class="languages" id="language">
       <h2>Languages</h2>
+      <ul>
+        <li>English - Basic (A2)</li>
+        <li>German - Intermediate/Upper-intermediate (B2 - Telc)</li>
+        <li>Russian - Native</li>
+        <li>Ukrainian - Intermediate</li>
+      </ul>
     </section>
   </main>
 
-  <footer>
-    <a href="">github</a>
-    <img src="assets/svg/rs_school_js.svg" alt="rs-school">
+  <footer class="container">
+      <a href="">github</a>
+      <img src="assets/svg/rs_school_js.svg" alt="rs-school">
   </footer>
 </body>
 </html>
