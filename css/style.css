@@ -23,6 +23,9 @@ h5 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   margin: 0;
 }
+p {
+  margin: 0;
+}
 
 .bg {
   background-color: #feede6;
@@ -72,16 +75,57 @@ h5 {
 }
 
 .section {
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
   text-align: center;
 }
 
 .section-header {
-  padding: 10px 0;
+  position: relative;
+  padding: 0.625rem 0;
   border-top: 2px solid #414042;
   border-bottom: 2px solid #414042;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  padding-left: 3.4375rem;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact .section-header::before {
+  background-image: url(../assets/svg/contact.svg);
+}
+
+.skills .section-header::before {
+  background-image: url(../assets/svg/skills.svg);
+}
+
+.experience .section-header::before {
+  background-image: url(../assets/svg/experience.svg);
+}
+
+.education .section-header::before {
+  background-image: url(../assets/svg/education.svg);
+}
+
+.projects .section-header::before {
+  background-image: url(../assets/svg/projects.svg);
+}
+
+.languages .section-header::before {
+  background-image: url(../assets/svg/languages.svg);
+}
+
+.code .section-header::before {
+  background-image: url(../assets/svg/code.svg);
 }
 
 .about-header {
@@ -108,6 +152,8 @@ h5 {
     /* box-shadow: 0 1px 4px rgb(0 0 0 / 60%); */
     filter: grayscale(0.2) brightness(1.05);
     transition: .3s;
+
+    margin-bottom: 3.25rem;
 }
 
 .about-text {
