@@ -160,3 +160,69 @@ p {
   text-align: justify;
   line-height: 1.5em;
 }
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.contact-item {
+  position: relative;
+  margin: 0;
+  padding: 14px 0;
+  padding-left: 75px;
+  border-bottom: 2px solid #414042;
+  opacity: 0.8;
+}
+
+.contact-item:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 26px;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-item:after {
+  content: "";
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  width: 40px;
+  height: 27px;
+  transform: translateY(-50%);
+  border-right: 1px solid #414042;
+}
+
+.contact-item:nth-child(1):before {
+  background-image: url(../assets/svg/home.svg);
+}
+
+.contact-item:nth-child(2):before {
+  background-image: url(../assets/svg/email.svg);
+}
+
+.contact-item:nth-child(3):before {
+  background-image: url(../assets/svg/github.svg);
+}
+
+.contact-item:nth-child(4):before {
+  background-image: url(../assets/svg/telegram1.svg);
+}
+
+.contact-item:nth-child(5):before {
+  background-image: url(../assets/svg/discord1.svg);
+}
+
+.contact-item a {
+  color: #000000;
+}
+
+.code pre {
+  text-align: left;
+}
