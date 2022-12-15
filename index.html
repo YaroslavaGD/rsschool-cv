@@ -41,10 +41,10 @@
         <h2 class="section-header">Contact</h2>
         <ul class="contact-list">
           <li class="contact-item">Berlin, Germany</li>
-          <li class="contact-item"><a href="mailto:yaroslava.gd@gmail.com" title="email">yaroslava.gd@gmail.com</a></li>
-          <li class="contact-item"><a href="https://github.com/YaroslavaGD" title="github">YaroslavaGD</a></li>
-          <li class="contact-item"><a href="https://t.me/yaroslava_gd" title="telegram">@yaroslava_gd</a></li>
-          <li class="contact-item"><a href="https://discord.gg/zUr7wWYPXE" title="discord">Yaroslava#7265</a></li>
+          <li class="contact-item"><a class="contact-link" href="mailto:yaroslava.gd@gmail.com" title="email">yaroslava.gd@gmail.com</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://github.com/YaroslavaGD" title="github">YaroslavaGD</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://t.me/yaroslava_gd" title="telegram">@yaroslava_gd</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://discord.gg/zUr7wWYPXE" title="discord">Yaroslava#7265</a></li>
         </ul>
       </section>
     
@@ -103,13 +103,13 @@
   
       <section class="code section" id="code">
         <h2 class="section-header">Code example</h2>
-        <code>
-          <pre>
+        <pre>
+          <code>
 function bouncingBall(h, bounce, window) {
   let numDrops = 0
   let currentHeight = h;
   
-  if (bounce >= 1 ||  bounce <= 0) return -1;
+  if (bounce >= 1 ||  bounce &lt;= 0) return -1;
 
   while (currentHeight > window) {
       currentHeight *= bounce;
@@ -118,20 +118,42 @@ function bouncingBall(h, bounce, window) {
 
   return numDrops - 1;
 }
-          </pre>
         </code>
+      </pre>
       </section>
   
       <section class="projects section" id="projects">
         <h2 class="section-header">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item">
+            <h3 class="projects-header"><a href="https://yaroslavagd.github.io/parallels/">Parallels</a></h3>
+            <img class="projects-img" src="assets/img/parallels.jpg" alt="parallels project">
+          </li>
+          <li class="projects-item">
+            <h3 class="projects-header"><a href="https://yaroslavagd.github.io/mogo-template/">Mogo Template</a></h3>
+            <img class="projects-img" src="assets/img/mogo.jpg" alt="mogo project">
+          </li>
+          <li class="projects-item">
+            <h3 class="projects-header">
+              <a href="https://yaroslavagd.github.io/shape-generator/">
+                Shape Generator
+                <img class="projects-img" src="assets/img/shape.jpg" alt="shape-generator project">
+              </a>
+            </h3>
+          </li>
+        </ul>
       </section>
     </div>
   </main>
 
-  <footer class="container">
-    <p>© 2022</p>
-    <a href="">github</a>
-    <img src="assets/svg/rs_school_js.svg" alt="rs-school">
+  <footer class="container footer">
+    <p>© 2022 by Yaroslava Hryzadubova</p>
+    <a class="footer-link" href="https://github.com/YaroslavaGD" title="github">
+      <img class="footer-img footer-github" src="assets/svg/github2.svg" alt="GitHub">
+    </a>
+    <a class="footer-link" href="https://rs.school/js/">
+      <img class="footer-img footer-rs" src="assets/svg/rs_school_js.svg" alt="rs-school">
+    </a>
   </footer>
 </body>
 </html>
