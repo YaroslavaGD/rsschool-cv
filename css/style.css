@@ -82,12 +82,13 @@ p {
 .section-header {
   position: relative;
   padding: 0.625rem 0;
+  padding-left: 3.4375rem;
+  margin-bottom: 1.563rem;
   border-top: 2px solid #414042;
   border-bottom: 2px solid #414042;
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  padding-left: 3.4375rem;
 }
 
 .section-header::before {
@@ -98,6 +99,56 @@ p {
   height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.section-subheader {
+  position: relative;
+  padding-left: 1.563rem;
+  margin-bottom: 0.625rem;
+  font-size: 1.25rem;
+}
+
+.section-subheader::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0.625rem;
+  height: 0.625rem;
+  transform: translate(-50%, -50%);
+  width: 0.625rem;
+  height: 0.625rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../assets/svg/circle.svg);
+}
+
+.section-text {
+  position: relative;
+  padding-left: 0.5rem;
+  text-align: left;
+}
+
+.section-text::before {
+  content: "";
+  top: 7px;
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 7px);
+  border-left: 1px solid #414042;
+}
+
+.section-list {
+  margin: 0;
+  margin-bottom: 2.063rem;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 1.063rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact .section-header::before {
