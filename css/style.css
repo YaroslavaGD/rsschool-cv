@@ -326,7 +326,8 @@ p {
 
 .projects-item {
   position: relative;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .projects-header {
@@ -346,9 +347,11 @@ p {
 .projects-header:hover .projects-img {
   opacity: 1;
 }
+
 .projects-header:hover .projects-name {
   color: #000000;
 }
+
 .projects-link{
   display: flex;
   flex-wrap: wrap;
@@ -360,11 +363,12 @@ p {
 }
 
 .projects-img {
-  object-fit: cover;
-  width: 23.625rem;
-  object-position: left;
-  height: 13.125rem;
   padding: 0.625rem;
+  margin: 0 auto;
+  width: 23.625rem;
+  height: 13.125rem;
+  object-fit: cover;
+  object-position: left;
   border: 1px solid #414042;
   opacity: 0.8;
 }
