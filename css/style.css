@@ -3,7 +3,7 @@
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
 }
 
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -23,6 +23,7 @@ h5 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   margin: 0;
 }
+
 p {
   margin: 0;
 }
@@ -199,17 +200,15 @@ p {
   text-transform: capitalize;
   font-family: 'Roboto',sans-serif;
   margin-bottom: 1.9rem;
-
 }
 
 .about-photo {
   width: 315px;
-    height: 315px;
-    object-fit: cover;
-    filter: grayscale(0.2) brightness(1.05);
-    transition: .3s;
-
-    margin-bottom: 3.25rem;
+  height: 315px;
+  object-fit: cover;
+  filter: grayscale(0.2) brightness(1.05);
+  transition: .3s;
+  margin-bottom: 3.25rem;
 }
 
 .about-text {
@@ -352,7 +351,7 @@ p {
   color: #000000;
 }
 
-.projects-link{
+.projects-link {
   display: flex;
   flex-wrap: wrap;
 }
