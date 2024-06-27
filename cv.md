@@ -5,10 +5,11 @@
 ## Contact information:
 * __E-mail:__ yaroslava.gd@gmail.com
 * [__LinkedIn__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
+* [__GitHub__](https://github.com/YaroslavaGD)
 * Address: Berlin, Germany
 
 ## Briefly About Myself:
-Frontend Developer with 2 years of experience in developing web applications using JavaScript, TypeScript, HTML5, CSS3, SASS, and PHP. Specialized in designing user-friendly interfaces and solving complex problems. Experienced in working with React, Angular, e-commerce applications, and WordPress templates. At the moment I am in Berlin in search of work, learning German and English.
+Frontend Developer with 2 years of experience in developing web applications using JavaScript, HTML5, CSS3, SASS, and PHP. Specialized in designing user-friendly interfaces and solving complex problems. Experienced in working with React, Angular, e-commerce applications, and WordPress templates. At the moment I am in Berlin in search of work, learning German and English.
 
 ## Skills and Proficiency:
 * Languages: JavaScript, TypeScript, HTML5, CSS3, SCSS, PHP
