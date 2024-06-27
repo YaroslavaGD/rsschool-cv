@@ -1,21 +1,19 @@
 # Yaroslava Hryzadubova
 
-## Junior Frontend Developer
+## Frontend Developer
 
 ## Contact information:
 * __E-mail:__ yaroslava.gd@gmail.com
-* __Telegram:__ @yaroslava_gd
 * [__LinkedIn__](https://www.linkedin.com/in/yaroslava-hryzadubova-7725a4147/)
+* Address: Berlin, Germany
 
 ## Briefly About Myself:
-I graduated from Donetsk National Technical University in 2017, moved to Kyiv and worked as a web developer there. At the moment I am in Berlin in search of work, learning German and English.
+Frontend Developer with 2 years of experience in developing web applications using JavaScript, TypeScript, HTML5, CSS3, SASS, and PHP. Specialized in designing user-friendly interfaces and solving complex problems. Experienced in working with React, Angular, e-commerce applications, and WordPress templates. At the moment I am in Berlin in search of work, learning German and English.
 
 ## Skills and Proficiency:
-* HTML5, CSS3
-* JavaScript
-* Git, GitHub
-* VS Code, IntelliJ IDEA
-* Adobe Photoshop, Figma
+* Languages: JavaScript, TypeScript, HTML5, CSS3, SCSS, PHP
+* Frameworks/Libraries: Angular, React, Redux, jQuery
+* Tools: Webpack, NPM, Git, Jira, CommerceTools SDK, Jest, ESLint, Prettier, Husky, Mui, Formik, OpenCart, Wordpress, VS Code, IntelliJ IDEA, Adobe Photoshop, Figma
 
 ## Code example:
 __Bouncings Balls from CODEWARS:__ _A child is playing with a ball on the nth floor of a tall building. The height of this floor above ground level, h, is known._
@@ -47,7 +45,12 @@ function bouncingBall(h, bounce, window) {
 ```
 
 ## Experience:
-September 2017 - July 2019: Junior Wordpress Template Developer in EA Group, Kyiv, Ukraine
+September 2017 - July 2019: Fullstack Developer in Plscoach.Me, Kyiv, Ukraine
+* Developed custom templates and an admin interface for WordPress (e.g., [InfoVision](https://infovision.ua/)).
+* Created a library for linking delivery information.
+* Integrated the Telegram API for order notifications on a pizza ordering website ([GoodChef](https://goodchef.com.ua/)).
+* Improved user interactions and increased usability.
+* Technologies Used: WordPress, jQuery, JavaScript, HTML5, CSS3, PHP, API Nova Post, Telegram API, OpenCart.
 
 ## Education:
 * Donetsk National Technical University, Pokrovsk, Ukraine
@@ -56,10 +59,11 @@ September 2017 - July 2019: Junior Wordpress Template Developer in EA Group, Kyi
 * Specialization: Software engineering
 
 ## Courses:
+2023-2024: The Rolling Scopes School ([Angular 2023Q4](https://app.rs.school/certificate/okyxmx0t), [JavaScript/Frontend 2023Q1](https://app.rs.school/certificate/7na9vrj2))
 2021-2022: German Courses (Goethe-Institut and VHS) in Berlin
 
 ## Languages:
-* English - Basic (A2)
-* German - Intermediate/Upper-intermediate (B2 - Telc)
-* Russian - Native
-* Ukrainian - Intermediate
+* German (Upper-Intermediate, B2)
+* English (Basic, A2)
+* Ukrainian (Fluent)
+* Russian (Fluent)
