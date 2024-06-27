@@ -60,8 +60,8 @@ September 2017 - July 2019: Fullstack Developer in Plscoach.Me, Kyiv, Ukraine
 * Specialization: Software engineering
 
 ## Courses:
-2023-2024: The Rolling Scopes School ([Angular 2023Q4](https://app.rs.school/certificate/okyxmx0t), [JavaScript/Frontend 2023Q1](https://app.rs.school/certificate/7na9vrj2))
-2021-2022: German Courses (Goethe-Institut and VHS) in Berlin
+* 2023-2024: The Rolling Scopes School ([Angular 2023Q4](https://app.rs.school/certificate/okyxmx0t), [JavaScript/Frontend 2023Q1](https://app.rs.school/certificate/7na9vrj2))
+* 2021-2022: German Courses (Goethe-Institut and VHS) in Berlin
 
 ## Languages:
 * German (Upper-Intermediate, B2)
