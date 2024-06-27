@@ -1,5 +1,5 @@
 # rsschool-cv
 
-# https://yaroslavagd.github.io/rsschool-cv/cv
+# [markdown](https://yaroslavagd.github.io/rsschool-cv/cv)
 
-# https://yaroslavagd.github.io/rsschool-cv/
+# [html](https://yaroslavagd.github.io/rsschool-cv/)
